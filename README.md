@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+🌟 SpotLight-App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SpotLight-App is an Android application that (briefly describe what SpotLight-App does — e.g. helps users discover content, manage tasks, track something, etc.).  
 
-## Get started
+It is built to provide a clean and easy-to-use mobile interface so users can (main goal / value to user) with minimal setup.
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+🔎 Overview
 
-2. Start the app
+SpotLight-App aims to solve the problem of _(briefly state the problem your app addresses)_.  
+With this app, users get a simple way to _(describe core functionality)_, making their life (easier / more organized / more fun / more efficient / etc.).  
 
-   ```bash
-    npx expo start
-   ```
+The app is built in native Android using **Java** (or the language you used), offering a lightweight, easy-to-extend code base.  
 
-In the output, you'll find options to open the app in a
+✅ Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Add new items / content / (books, tasks, events or whatever your domain)  
+- View list of all items in a clean UI  
+- Edit or update existing entries  
+- Delete entries  
+- Mark statuses / categories (e.g. “Pending”, “Completed”, “Favorite”, etc. — adapt to your use case)  
+- Search / Filter / Sort (if implemented)  
+- (Optional / planned) Additional features such as notifications, reminders, backup, sync etc.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+⚠️ *Note:* Features depend on current implementation. Update this list as you add new functionality.
 
-## Get a fresh project
 
-When you're ready, run:
+ 🛠 Tech Stack & Project Structure
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Platform:** Android (Native)  
+- **Language:** Java / Kotlin (whichever used)  
+- **Build System:** Gradle / Android Studio  
+- **UI:** XML layouts / Android UI toolkits (Activities, Fragments, RecyclerView, etc.)  
